@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<StartupObject></StartupObject>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="InstagramApiSharp" Version="1.7.4" />
+		<PackageReference Include="PacketDotNet" Version="1.4.7" />
+		<PackageReference Include="PuppeteerSharp" Version="14.1.0" />
+		<PackageReference Include="SharpPcap" Version="6.3.0" />
+		<PackageReference Include="Spectre.Console" Version="0.48.0" />
+		<PackageReference Include="TweetinviAPI" Version="5.0.4" />
+		<PackageReference Include="WTelegramClient" Version="3.6.6" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Req\" />
+	</ItemGroup>
+</Project>
